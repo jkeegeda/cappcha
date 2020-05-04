@@ -20,7 +20,7 @@ while True:
 					vk.messages.send(
 						chat_id=48,
 						message =mask,
-						random_id = random.randinj t(0,999999999999)
+						random_id = random.randint(0,999999999999)
 					)
 				else:
 					pass
