@@ -1,1 +1,1 @@
-worker: python capcha.py
+worker: python onlycapcha.py
