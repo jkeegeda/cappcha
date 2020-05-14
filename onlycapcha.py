@@ -14,7 +14,7 @@ while True:
 				q=event.text
 				print(q)
 				if 'красную' in q:
-					textlookfor = r'\w\w\w\w\w\s\d\d\d\d'
+					textlookfor = r'\w\w\w\w\w\s\d+'
 					mask =re.findall(textlookfor, q)
 					
 					vk.messages.send(
